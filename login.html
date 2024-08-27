@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='./styles/style.css'>
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="presentacion-BMS-contenido-titulo">ENTERNCRIMESPTAIDOBERR</header>
+        <main class="container">
+            <div class="content-wrapper">
+                <div class="left-side">
+                    <h2 class="presentacion-BMS-botones-subtitulo">¿Qué desea hacer?</h2>
+                    <textarea id="textoInput" rows="12" cols="25" placeholder="Ingrese texto aquí. No utilice mayúsculas ni caracteres especiales..." class="texto-input"></textarea>
+                    <div class="botones">
+                        <button onclick="encriptar()" class="presentacion-BMS-botones-link">Encriptar</button>
+                        <button onclick="desencriptar()" class="presentacion-BMS-botones-link">Desencriptar</button>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <textarea id="resultadoTexto" rows="12" cols="25" readonly placeholder="El texto aparecerá aquí..." class="texto-resultado"></textarea>
+                    <img id="imagenError" src="./assets/triste.png" alt="Imagen de Error">
+                    <button onclick="copiarNewText()" class="presentacion-BMS-botones-link copiar-btn">Copiar</button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            Desarrollado por Bárbara Mahuida
+        </footer>
+        <script src="app.js"></script>
+</body>
+</html>
+
+    
